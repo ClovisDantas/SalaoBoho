@@ -1,0 +1,158 @@
+@media screen and (max-width: 1270px) {
+    .sobre-img {
+        display: none;
+    }
+
+    div.wrapper-sobre-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    div.sobre-mini-single {
+        width: 50%;
+        margin: 10px auto;
+        padding: 0 .4em;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    section.main {
+        position: relative;
+    }
+
+    .main-content {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        padding: 1em 2%;
+    }
+
+    div.wrapper-form {
+        display: block;
+    }
+
+    a.btn-number {
+        display: none;
+    }
+
+    a.btn-email {
+        display: none;
+    }
+
+    div.contato-add {
+        width: 100%;
+        text-align: center;
+    }
+
+    form {
+        margin: 1em auto;
+        width: 80%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 880px) {
+    div.cards-servicos-single {
+        width: 40%;
+    }
+
+    .main-img img {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 690px) {
+    .menu-desktop {
+        display: none;
+    }
+
+    div.wrapper_headerSocial {
+        display: block;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    div.wrapper-social {
+        display: block;
+    }
+
+    div.social-redes {
+        display: flex;
+        justify-content: center;
+    }
+
+    div.wrapper-depoimentos {
+        display: block;
+    }
+
+    section.profissionais {
+        display: block;
+    }
+
+    .bg-left {
+        width: 100%;
+        padding: 5em 0;
+    }
+
+    .wrapper-profissionais {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .profissionais-single {
+        justify-content: center;
+    }
+
+    .bg-left-text {
+        text-align: center;
+    }
+
+    div.depoimento-single {
+        width: 90%;
+        margin: 1em auto;
+    }
+
+    form {
+        margin: 1em auto;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    div.register-btn input {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    div.sobre-mini-single {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .main-img img {
+        width: 100%;
+    }
+
+    div.cards-servicos-single {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    div.main-content h1 {
+        font-size: 1.7em;
+    }
+
+    .main-content p {
+        display: none;
+    }
+}
