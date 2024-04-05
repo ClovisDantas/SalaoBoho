@@ -12,8 +12,10 @@ function Assine() {
                     </div>
 
                     <div className='register-btn'>
-                        <input placeholder='Informe seu e-mail' type="text" />
-                        <a href="">Assinar Boho ateliê</a>
+                        <form action="https://api.sheetmonkey.io/form/oXWWsUV5fNSn3HrDJt8BEu" method="post">
+                            <input placeholder='Informe seu e-mail' type="text" name="email" />
+                            <button type="submit">Assinar Boho ateliê</button>
+                        </form>
                     </div>
                 </div>
             </section>
